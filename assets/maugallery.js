@@ -270,7 +270,7 @@ function loadFonts() {
   document.head.appendChild(link);
   setTimeout(function(){
     link.media = 'all';
-  }, 2000);
+  }, 1);
 }
 
 if (window.addEventListener) {
