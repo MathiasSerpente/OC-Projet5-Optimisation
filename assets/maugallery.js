@@ -261,3 +261,20 @@
     }
   };
 })(jQuery);
+
+function loadFonts() {
+  var link = document.createElement('link');
+  link.rel = 'stylesheet';
+  link.href = 'https://fonts.googleapis.com/css2?family=Inter&family=Spectral:ital,wght@0,400;1,300;1,400;1,800&display=swap';
+  link.media = 'print';
+  document.head.appendChild(link);
+  setTimeout(function(){
+    link.media = 'all';
+  }, 2000);
+}
+
+if (window.addEventListener) {
+  window.addEventListener('load', loadFonts, false);
+} else if (window.attachEvent) {
+  window.attachEvent('onload', loadFonts);
+}
