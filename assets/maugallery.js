@@ -265,7 +265,7 @@
 function loadFonts() {
   var link = document.createElement('link');
   link.rel = 'stylesheet';
-  link.href = 'https://fonts.googleapis.com/css2?family=Inter&family=Spectral:ital,wght@0,400;1,300;1,400;1,800&display=swap';
+  link.href = 'https://fonts.googleapis.com/css2?family=Inter:wght@400;500&family=Spectral:ital,wght@0,800;1,300;1,800&display=swap';
   link.media = 'print';
   document.head.appendChild(link);
   setTimeout(function(){
