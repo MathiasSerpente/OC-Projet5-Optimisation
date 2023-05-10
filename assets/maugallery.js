@@ -262,6 +262,7 @@
   };
 })(jQuery);
 
+// Fonction pour retarder le chargement des Fonts
 function loadFonts() {
   var link = document.createElement('link');
   link.rel = 'stylesheet';
@@ -277,4 +278,4 @@ if (window.addEventListener) {
   window.addEventListener('load', loadFonts, false);
 } else if (window.attachEvent) {
   window.attachEvent('onload', loadFonts);
-}
+} 
