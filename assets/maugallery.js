@@ -261,21 +261,3 @@
     }
   };
 })(jQuery);
-
-// Fonction pour retarder le chargement des Fonts
-function loadFonts() {
-  var link = document.createElement('link');
-  link.rel = 'stylesheet';
-  link.href = 'https://fonts.googleapis.com/css2?family=Inter:wght@400;500&family=Spectral:ital,wght@0,800;1,300;1,800&display=swap';
-  link.media = 'print';
-  document.head.appendChild(link);
-  setTimeout(function(){
-    link.media = 'all';
-  }, 1);
-}
-
-if (window.addEventListener) {
-  window.addEventListener('load', loadFonts, false);
-} else if (window.attachEvent) {
-  window.attachEvent('onload', loadFonts);
-} 
