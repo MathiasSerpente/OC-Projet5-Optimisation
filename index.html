@@ -4,13 +4,14 @@
 
 	<head>
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<meta charset="UTF-8">
 		<link rel="stylesheet" href="./assets/bootstrap/bootstrap.min.css">
 		<link rel="stylesheet" href="./assets/style.css">
 		<link rel="shortcut icon" href="./assets/images/logo.ico" type="image/x-icon">
 		<link rel="preload" href="./assets/images/slider/ryoji-iwata-wUZjnOv7t0g-unsplash.webp" as="image">
 		<link rel="preconnect" href="https://fonts.googleapis.com">
 		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-		<link href="https://fonts.googleapis.com/css2?family=Inter&family=Spectral:ital,wght@0,400;1,300;1,400;1,800&display=swap" rel="stylesheet">
+		<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500&family=Spectral:ital,wght@0,800;1,300;1,800&display=swap" rel="stylesheet">
 		<meta charset="UTF-8">
 		<title>Nina Carducci - Photographe professionnelle à Bordeaux</title>
 		<meta name="description" content="Nina Carducci, photographe professionnelle à Bordeaux et en Île-de-France, je réalise des shooting photo, des retouches et des albums photos personnalisés">
@@ -185,30 +186,46 @@
 				</div>
 			</div>
 		</footer>
-		<script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous" defer></script>
-		<script src="./assets/bootstrap/bootstrap.bundle.min.js" defer></script>
-		<script src="./assets/maugallery.js" defer></script>
-		<script src="./assets/scripts.js" defer></script>
+		<script src="./assets/bootstrap/bootstrap.bundle.min.js"></script>
+		<script src="https://code.jquery.com/jquery-3.6.3.min.js"></script>
+		<script src="./assets/maugallery.js"></script>
+		<script src="./assets/scripts.js"></script>
 		<script type="application/ld+json">
 			{
-			  "@context": "https://schema.org",
-			  "@type": "LocalBusiness",
-			  "name": "Nina Carducci",
-			  "image": "https://raw.githubusercontent.com/MathiasSerpente/OC-Projet5-Optimisation/main/assets/images/nina.webp",
-			  "address": {
-				"@type": "PostalAddress",
-				"addressLocality": "Bordeaux",
-				"addressRegion": "Gironde",
-				"postalCode": "33200",
-				"streetAddress": "68 avenue Alsace-Lorraine"
-			  },
-			  "description": "Photographe professionnelle",
-			  "priceRange": "50-400 €",
-			  "openingHours": "Mo-Fr 10:00-19:00",
-			  "telephone": "05 56 67 78 89",
-			  "url": "https://github.com/MathiasSerpente/OC-Projet5-Optimisation/"
+				"@context": "http://schema.org",
+				"@type": ["LocalBusiness", "Service"],
+				"name": "Nina Carducci",
+				"description": "Nina Carducci, photographe professionnelle à Bordeaux",
+				"image": "https://raw.githubusercontent.com/MathiasSerpente/OC-Projet5-Optimisation/main/assets/images/nina.webp",
+				"url": "https://github.com/MathiasSerpente/OC-Projet5-Optimisation/",
+				"telephone": "0556677889",
+				"address": {
+					"@type": "PostalAddress",
+					"streetAddress": "68 avenue Alsace-Lorraine",
+					"addressLocality": "Bordeaux",
+					"postalCode": "33200",
+					"addressCountry": "FR"
+					},
+				"geo": {
+					"@type": "GeoCoordinates",
+					"latitude": "44.8466732",
+					"longitude": "-0.6065805"
+				},
+				"openingHoursSpecification": {
+					"@type": "OpeningHoursSpecification",
+					"dayOfWeek": [
+						"lundi",
+						"mardi",
+						"mercredi",
+						"jeudi",
+						"vendredi"
+					],
+					"opens": "10:00",
+					"closes": "19:00"
+				},
+				"priceRange" : "50€ - 400€"
 			}
-			</script>
+		</script>
 	</body>
 	
 </html>
