@@ -3,16 +3,9 @@ body {
 	margin: auto;
 }
 * {
-	font-family: 'Inter', sans-serif;
+	font-family: 'Inter';
 	font-style: normal;
 }
-
-h2 {
-	font-size: 1.75rem;
-	position: relative;
-	z-index: 1;
-}
-
 .top-header {
 	background-color: white;
 	position: sticky;
@@ -27,7 +20,6 @@ h2 {
 
 .top-header .name {
 	font-size: 26px;
-	text-align: center;
 }
 
 .nav ul {
@@ -48,11 +40,6 @@ h2 {
 
 .social-link img {
 	width: 20px;
-}
-
-.carousel-item img {
-	width: 100%;
-	height: auto;
 }
 
 #about {
@@ -85,7 +72,7 @@ h2 {
 
 }
 #about-me {
-	flex: 2;
+	flex: 2
 }
 .about-me__title {
 	margin-top: 1em;
@@ -97,17 +84,15 @@ h2 {
 	font-weight: 800;
 	font-style: italic;
 	width: 60%;
-	font-size: 1rem;
-	line-height: 1.2;
 }
-.about-me__development {
+#about-me p {
 	width: 80%;
 	font-size: 14px;
 }
 
-/* #gallery {
-		min-height: 100vh;
-} */
+#gallery {
+	/*	min-height: 100vh; */
+}
 .title{
 	text-align: center;
 	padding-block: 2em;
@@ -116,22 +101,17 @@ h2 {
 	justify-content: center;
 }
 .nav-pills .nav-link.active, .nav-pills .show > .nav-link {
-	color: #000;
+	color: #fff;
 	background-color: #BEB45A;
 	border-radius:0 ;
 }
 .nav-pills .nav-link {
 	color: #000
 }
-.nav-link {
-	cursor: pointer;
-}
-
 .item-column {
 	position: relative;
 	margin-bottom: 0 !important;
 	padding: 0;
-	cursor: pointer;
 }
 .item-column::after{
 	content: "";
@@ -167,8 +147,7 @@ h2 {
 	font-family: Spectral;
 	font-style: italic;
 	font-weight: 300;
-	font-size: 2.5rem;
-	line-height: 1.2;
+
 }
 .quote__author {
 	font-family: Spectral;
@@ -374,3 +353,4 @@ input[type="submit"] {
 		width: 80%;
 	}
 }
+
