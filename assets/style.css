@@ -16,16 +16,8 @@
 
 @font-face {
     font-family: 'Spectral';
-    src: url('./fonts/Spectral/Spectral-ExtraBoldItalic.ttf') format('truetype');
-    font-weight: 800;
-    font-style: italic;
-	font-display: swap;
-}
-
-@font-face {
-    font-family: 'Spectral';
-    src: url('./fonts/Spectral/Spectral-LightItalic.ttf') format('truetype');
-    font-weight: 300;
+    src: url('./fonts/Spectral/Spectral-Italic.ttf') format('truetype');
+    /* font-weight: 0; */
     font-style: italic;
 	font-display: swap;
 }
@@ -34,6 +26,14 @@
     font-family: 'Spectral';
     src: url('./fonts/Spectral/Spectral-ExtraBold.ttf') format('truetype');
     font-weight: 800;
+    font-style: normal;
+	font-display: swap;
+}
+
+@font-face {
+    font-family: 'Spectral';
+    src: url('./fonts/Spectral/Spectral-Light.ttf') format('truetype');
+    font-weight: 300;
     font-style: normal;
 	font-display: swap;
 }
