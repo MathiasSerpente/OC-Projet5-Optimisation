@@ -9,7 +9,7 @@ body {
 .top-header {
 	background-color: white;
 	position: sticky;
-	top:0;
+	top: 0;
 	z-index: 1000;
 	display: flex;
 	justify-content: space-between;
@@ -69,7 +69,7 @@ body {
 
 .picture img {
 	width: 100%;
-
+	height: auto;
 }
 #about-me {
 	flex: 2
@@ -84,6 +84,7 @@ body {
 	font-weight: 800;
 	font-style: italic;
 	width: 60%;
+	font-size: 1em;
 }
 #about-me p {
 	width: 80%;
@@ -101,12 +102,18 @@ body {
 	justify-content: center;
 }
 .nav-pills .nav-link.active, .nav-pills .show > .nav-link {
-	color: #fff;
 	background-color: #BEB45A;
 	border-radius:0 ;
 }
-.nav-pills .nav-link {
+.nav-link {
 	color: #000
+}
+.nav-item, .item-column {
+	cursor: pointer;
+}
+.active-tag {
+	background-color: #BEB45A;
+	/* color: white; */
 }
 .item-column {
 	position: relative;
@@ -280,6 +287,9 @@ input[type="submit"] {
 	.about-me__title{
 		text-align: center;
 		margin-top: 1em;
+	}
+	.about-me__introduction {
+		width: 100%;
 	}
 	#services .container {
 		flex-direction: column;
