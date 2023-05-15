@@ -1,3 +1,51 @@
+@font-face {
+    font-family: 'Inter';
+    src: url('./fonts/Inter/static/Inter-Regular.ttf') format('truetype');
+    font-weight: 400;
+    font-style: normal;
+	font-display: swap;
+}
+
+@font-face {
+    font-family: 'Inter';
+    src: url('./fonts/Inter/static/Inter-Medium.ttf') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+	font-display: swap;
+}
+
+@font-face {
+    font-family: 'Spectral';
+    src: url('./fonts/Spectral/Spectral-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+	font-display: swap;
+}
+
+@font-face {
+    font-family: 'Spectral';
+    src: url('./fonts/Spectral/Spectral-Italic.ttf') format('truetype');
+    font-weight: 0;
+    font-style: italic;
+	font-display: swap;
+}
+
+@font-face {
+    font-family: 'Spectral';
+    src: url('./fonts/Spectral/Spectral-ExtraBold.ttf') format('truetype');
+    font-weight: 800;
+    font-style: normal;
+	font-display: swap;
+}
+
+@font-face {
+    font-family: 'Spectral';
+    src: url('./fonts/Spectral/Spectral-BoldItalic.ttf') format('truetype');
+    font-weight: 1;
+    font-style: italic;
+	font-display: swap;
+}
+
 body {
 	max-width: 1920px;
 	margin: auto;
@@ -111,7 +159,7 @@ nav a:hover {
 .nav-pills .nav-link.active-tag, .nav-pills .show > .nav-link {
 	color:#000;
 	background-color: #BEB45A;
-	border-radius:0 ;
+	border-radius: 0 ;
 }
 .nav-link, .nav-link:hover {
 	color: #000
