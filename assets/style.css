@@ -38,6 +38,13 @@ body {
 	color: #000
 }
 
+nav a {
+	padding: 10px;
+}
+nav a:hover {
+	background-color: #BEB45A;
+}
+
 .social-link img {
 	width: 20px;
 }
@@ -101,20 +108,18 @@ body {
 .gallery .nav {
 	justify-content: center;
 }
-.nav-pills .nav-link.active, .nav-pills .show > .nav-link {
+.nav-pills .nav-link.active-tag, .nav-pills .show > .nav-link {
+	color:#000;
 	background-color: #BEB45A;
 	border-radius:0 ;
 }
-.nav-link {
+.nav-link, .nav-link:hover {
 	color: #000
 }
 .nav-item, .item-column {
 	cursor: pointer;
 }
-.active-tag {
-	background-color: #BEB45A;
-	/* color: white; */
-}
+
 .item-column {
 	position: relative;
 	margin-bottom: 0 !important;
@@ -154,7 +159,7 @@ body {
 	font-family: Spectral;
 	font-style: italic;
 	font-weight: 300;
-
+	font-size: calc(1.375rem + 1.5vw);
 }
 .quote__author {
 	font-family: Spectral;
